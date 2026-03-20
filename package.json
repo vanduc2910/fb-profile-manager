@@ -1,0 +1,1 @@
+{"name": "fb-profile-manager","version": "1.0.0","main": "main.js","keywords": [],"author": "vanduc2910","license": "MIT","scripts": {"start": "electron .","build": "electron-builder"},"dependencies": {"electron": "^23.0.0"},"devDependencies": {"electron-builder": "^23.0.0"}}
