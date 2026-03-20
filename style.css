@@ -1,0 +1,60 @@
+.dark-theme {
+  --background-color: #121212;
+  --text-color: #E0E0E0;
+  --sidebar-background: #1E1E1E;
+  --header-background: #1C1C1C;
+  --card-background: #1E1E1E;
+  --button-background: #424242;
+  --button-hover-background: #616161;
+  --shadow: rgba(0, 0, 0, 0.5);
+}
+
+.light-theme {
+  --background-color: #FFFFFF;
+  --text-color: #121212;
+  --sidebar-background: #F0F0F0;
+  --header-background: #E0E0E0;
+  --card-background: #FFFFFF;
+  --button-background: #E0E0E0;
+  --button-hover-background: #C0C0C0;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.sidebar {
+  background-color: var(--sidebar-background);
+  padding: 15px;
+  box-shadow: 0 4px 8px var(--shadow);
+}
+
+.header {
+  background-color: var(--header-background);
+  padding: 10px;
+  box-shadow: 0 2px 4px var(--shadow);
+}
+
+.button {
+  background-color: var(--button-background);
+  color: var(--text-color);
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: var(--button-hover-background);
+}
+
+.card {
+  background-color: var(--card-background);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px var(--shadow);
+  margin: 10px 0;
+}
